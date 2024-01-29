@@ -1,4 +1,4 @@
-import styled from 'styled-components'; 
+import styled from 'styled-components';
 
 const StyledButton = styled.button`
   padding: 8px 16px;
@@ -8,7 +8,8 @@ const StyledButton = styled.button`
   cursor: pointer;
 `;
 
-function Button(props) {
+function Button(props)
+{
   const { title, onClick } = props;
 
   return (
